@@ -22,7 +22,7 @@ make distclean
 cd /usr/local/ffmpeg_build
 #hg clone https://bitbucket.org/multicoreware/x265
 git clone --depth 1 https://github.com/arsanto/x265.git
-cd /usr/local/ffmpeg_build/x265/build/linux
+cd x265/build/linux
 cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX="/usr/local/ffmpeg_build" -DENABLE_SHARED:bool=off ../../source
 make
 make install
