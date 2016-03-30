@@ -86,3 +86,7 @@ make
 make install
 make distclean
 hash -r
+
+clear
+
+ffmpeg --version
